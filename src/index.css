@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .wrapper-container{
+        @apply max-w-7xl mx-auto px-2 
+    }
+}
